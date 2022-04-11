@@ -18,7 +18,6 @@ client.on('messageUpdate', (o, message) => {
 require('./utils/handlers/editHandles')(client, message);
 })
 
-
 client.login(process.env.TOKEN);
 client.on("message", async message =>{
 
